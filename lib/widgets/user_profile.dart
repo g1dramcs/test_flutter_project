@@ -9,7 +9,7 @@ class UserProfile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Settings'),
+        title: Align(alignment: Alignment.topCenter, child: Text('Settings')),
       ),
       backgroundColor: Colors.white,
       body: Container(
