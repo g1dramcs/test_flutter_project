@@ -11,7 +11,7 @@ class LayoutTest extends StatelessWidget {
         constraints: const BoxConstraints(
             minHeight: 50.0, maxHeight: 100.0, minWidth: 50.0, maxWidth: 100.0),
         child: Container(
-          color: Colors.blue,
+          color: Colors.green,
         ),
       ),
     );
