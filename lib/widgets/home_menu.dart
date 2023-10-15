@@ -7,21 +7,11 @@ class HomeMenu extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var item = <Widget>[];
-    for (var i = 0; i < 900; i++) {
-      final widget = Text("$i");
-      item.add(widget);
-    }
     return Scaffold(
-      body: SingleChildScrollView(
-        child: Container(
-          width: double.infinity,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: item,
-          ),
-        ),
+      appBar: AppBar(
+        title: Text("asda"),
       ),
+      body: Text("asd"),
     );
   }
 }
