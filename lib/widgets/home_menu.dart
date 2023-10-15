@@ -11,7 +11,14 @@ class HomeMenu extends StatelessWidget {
       appBar: AppBar(
         title: Text("asda"),
       ),
-      body: Text("asd"),
+      body: Column(
+        children: [
+          Container(
+            width: 100,
+          ),
+          Text("adfs")
+        ],
+      ),
     );
   }
 }
