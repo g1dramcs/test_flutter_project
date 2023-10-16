@@ -8,17 +8,31 @@ class HomeMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("asda"),
-      ),
-      body: Column(
+        body: Center(
+      child: Column(
         children: [
-          Container(
-            width: 100,
+          TextWrapper(
+            text: "asdfwewredf",
           ),
-          Text("adfs")
+          TextWrapper(
+            text: "asdfDSFDFDwewredf",
+          ),
+          TextWrapper(
+            text: "asdfwewredRFGERGf",
+          )
         ],
       ),
-    );
+    ));
+  }
+}
+
+class TextWrapper extends StatelessWidget {
+  const TextWrapper({super.key, required this.text});
+
+  final String text;
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(text);
   }
 }
